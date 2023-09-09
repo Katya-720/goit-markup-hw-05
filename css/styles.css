@@ -517,7 +517,6 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-bottom: 8px;
   transform: translate(-50%, -50%);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -560,6 +559,10 @@ img {
   text-align: center;
   color: var(--second-text-color);
   margin-bottom: 16px;
+}
+
+.contact-form-wrapper {
+  margin-bottom: 8px;
 }
 
 .contact-form-text {
@@ -691,6 +694,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--primari-background-color);
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
