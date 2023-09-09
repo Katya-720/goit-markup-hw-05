@@ -609,6 +609,10 @@ img {
   fill: var(--color-logo);
 }
 
+.contact-form-comment {
+  margin-bottom: 16px;
+}
+
 .contact-form-textarea {
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
